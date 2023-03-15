@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheerChat</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="title-area">
+        <h1 class="title1">いますぐ励ましてくれるCheerChat</h1>
+    </div>
+    <div class="serect-area">
+        <h2 class="title2">励まし方を選んでね</h2>
+        <div class="btn-wrapper">
+            <button  type="button" onclick='quickReply()' class="btn">３行で簡単に</button>
+            <button type="button" onclick='hotReply()' class="btn">熱烈に熱い言葉で</button>
+            <button type="button" onclick='greatReply()' class="btn">偉人の言葉で</button>
+        </div>
+    </div>
+    <div class="reply-area">
+        <h2 class="title3">cheerChatのお返事</h2>
+        <div class="comment">
+            <div></div>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="reply.js"></script>
+</body>
+</html>
