@@ -7,28 +7,26 @@
     <title>CheerChat</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div class="title-area">
-        <h1 class="title1">いますぐ励ましてくれるCheerChat</h1>
-    </div>
-    <div class="serect-area">
-        <h2 class="title2">励まし方を選んでね</h2>
-        <div class="btn-wrapper">
-            <button  type="button" onclick='question()' class="btn">1行で簡単に</button>
-            <button type="button" onclick='quickReply()' class="btn">ヒヨコになって</button>
-            <button type="button" onclick='greatReply()' class="btn">偉人の言葉で</button>
+<body background="./img/sun.jpeg">
+        <div class="title-area">
+            <h1 class="title1">いますぐ励ましてくれるCheerChat</h1>
         </div>
-    </div>
-    <div class="reply-area">
-        <h2 class="title3">cheerChatのお返事</h2>
-        <div class="comment">
-            <div id="text"></div>
-            <div id="reply"></div>
-
+        <div class="serect-area">
+            <h2 class="title2">励まし方を選んでね</h2>
+            <div class="btn-wrapper">
+                <button  type="button" onclick='question()' class="btn">1行で簡単に</button>
+                <button type="button" onclick='quickReply()' class="btn">ヒヨコになって</button>
+                <button type="button" onclick='greatReply()' class="btn">偉人の言葉で</button>
+            </div>
         </div>
-
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <div class="reply-area">
+            <h2 class="title3">cheerChatのお返事</h2>
+            <div class="comment">
+                <div id="text" class="message"></div>
+                <div id="reply" class="cheer-reply"></div>
+            </div>
+        </div>
+    <script class="" src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="reply.js"></script>
 </body>
 </html>
