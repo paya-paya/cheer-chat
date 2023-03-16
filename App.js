@@ -10,8 +10,6 @@ app.use("/api/v1/cheer", route);
 
 console.log('start')
 
-app.listen(process.env.PORT || 5000);
+console.log(process.env.PORT)
 
-// const server = app.listen(5000, function(){
-//     console.log("Node.js is listening to PORT:" + server.address().port);
-// });
+app.listen(process.env.PORT || 5000);
