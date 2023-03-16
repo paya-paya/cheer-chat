@@ -10,6 +10,4 @@ app.use("/api/v1/cheer", route);
 
 console.log('start')
 
-console.log(process.env.PORT)
-
-app.listen(process.env.PORT || 3000);
+app.listen(80);
